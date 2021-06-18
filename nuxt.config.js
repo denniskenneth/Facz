@@ -4,8 +4,9 @@ export default {
 
   // Target: https://go.nuxtjs.dev/config-target
   target: 'static',
+  // mode: 'spa',
   // router: {
-    // base: '/Facz/'
+  //   base: '/Facz/'
   // },
   // Global page headers: https://go.nuxtjs.dev/config-head
   head: {
@@ -22,9 +23,9 @@ export default {
       { rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' }
     ]
   },
-  generate: {
-    routes: []
-  },
+  // generate: {
+  //   routes: []
+  // },
 
   // Global CSS: https://go.nuxtjs.dev/config-css
   css: [
