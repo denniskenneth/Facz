@@ -4,10 +4,10 @@ export default {
 
   // Target: https://go.nuxtjs.dev/config-target
   target: 'static',
-  mode: 'spa',
-  router: {
-    base: '/Facz/'
-  },
+  // mode: 'spa',
+  // router: {
+  //   base: '/Facz/'
+  // },
   // Global page headers: https://go.nuxtjs.dev/config-head
   head: {
     title: 'Facz',
