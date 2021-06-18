@@ -4,10 +4,7 @@ export default {
 
   // Target: https://go.nuxtjs.dev/config-target
   target: 'static',
-  // mode: 'spa',
-  // router: {
-  //   base: '/Facz/'
-  // },
+
   // Global page headers: https://go.nuxtjs.dev/config-head
   head: {
     title: 'Facz',
@@ -20,11 +17,11 @@ export default {
       { hid: 'description', name: 'description', content: '' }
     ],
     link: [
-      { rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' }
+      { rel: 'icon', type: 'image/x-icon', href: '/old-library-building.png' }
     ]
   },
   generate: {
-    fallback: '404.html'
+    routes: []
   },
 
   // Global CSS: https://go.nuxtjs.dev/config-css
