@@ -23,9 +23,9 @@ export default {
       { rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' }
     ]
   },
-  // generate: {
-  //   routes: []
-  // },
+  generate: {
+    fallback: '404.html'
+  },
 
   // Global CSS: https://go.nuxtjs.dev/config-css
   css: [
