@@ -5,10 +5,10 @@
         <h3>Login</h3>
         <form @submit.prevent="pressed">
           <div class="login">
-            <input id="" v-model="email" type="email" name="" placeholder="Email">
+            <input id="" v-model="email" type="email" name="" placeholder="Email" required>
           </div>
           <div class="password">
-            <input id="" v-model="password" type="password" name="" placeholder="Password">
+            <input id="" v-model="password" type="password" name="" placeholder="Password" required>
           </div>
           <button>Login</button>
           <div v-if="error" class="error">

@@ -11,10 +11,10 @@
             <input id="" v-model="name" type="text" name="" placeholder="Full Name">
           </div> -->
           <div class="email">
-            <input id="" v-model="email" type="email" name="" placeholder="Email@email.com">
+            <input id="" v-model="email" type="email" name="" placeholder="Email@email.com" required>
           </div>
           <div class="password">
-            <input id="" v-model="password" type="password" name="">
+            <input id="" v-model="password" type="password" name="" minlength="6" required>
           </div>
           <button>Register</button>
         </form>
