@@ -6,7 +6,7 @@
         <a class="navbar-brand" href="/">Facz</a>
         <a v-if="$route.path == '/catalogue' && loggedIn" href="/add">Add New</a>
         <a v-if="loggedIn && $route.path !== '/register'" href="#" @click="logout">Logout</a>
-        <a v-else-if="!loggedIn && $route.path !== '/login' && $route.path !== '/register' && $route.path !== '/add'" href="/login">Login</a>
+        <a v-else-if="!loggedIn && $route.path !== '/login' && $route.path !== '/register' && $route.path !== '/add' && $route.path !== '/login/' && $route.path !== '/register/' && $route.path !== '/add/'" href="/login">Login</a>
       </div>
     </nav>
     <Nuxt />
